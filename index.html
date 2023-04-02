@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Car Shop</title>
-  <style>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Car Shop</title>
+		<!-- <style>
     table, tr, th, td {
       border: 2px solid;
-      /* border-radius: 10px; */
     }
-  </style>
-</head>
-<body>
-  <h1>Table</h1>
-  <table>
-    <caption>Shedule</caption>
-    <thead>
-     <tr>
-      <th rowspan="2">Country</th>
-      <th rowspan="2">Capital</th>
-      <th colspan="2">Info</th>
-      <th rowspan="2">Notice</th>
-     </tr>
-     <tr>
-      <th>Population</th>
-      <th>Square</th>
-     </tr>
-    </thead>
-    <tbody>
-      
-    </tbody>
-    <!-- <tfoot></tfoot> -->
-  </table>
-</body>
+  </style> -->
+	</head>
+	<body>
+		<h1>Form</h1>
+		<form>
+      <fieldset>
+        <legend>Private info</legend>
+        <div>
+				<label for="name">Name</label>
+				<input autofocus id="name" placeholder="John" />
+			</div>
+			<div>
+				<label for="lastName">lastName</label>
+				<input id="lastName"/>
+			</div>
+			<div>
+				<label for="email">email</label>
+				<input id="email" type="email"/>
+			</div>
+      <div>
+        <label for="male">Male</label>
+      <input type="radio" id="male" value="male" name="gender">
+      </div>
+      <div>
+        <label for="female">Female</label>
+      <input type="radio" id="female" value="male" name="gender">
+      </div>
+      </fieldset>
+      <select multiple>
+        <option value="">---</option>
+        <option value="">Masda</option>
+        <option value="">BMW</option>
+        <option value="">Audi</option>
+      </select>
+			
+			<input type="reset" value="cancel">
+			<input type="submit" value="Ok"/>
+		</form>
+	</body>
 </html>
