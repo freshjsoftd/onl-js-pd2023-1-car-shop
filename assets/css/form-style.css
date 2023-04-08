@@ -1,0 +1,117 @@
+:root {
+	font-size: 20px;
+}
+label + input:focus {
+	background-color: antiquewhite;
+}
+/* For input range gorizontal*/
+datalist {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	/* flex-direction: column; */
+	/* writing-mode: vertical-lr; */
+}
+option {
+	padding: 0;
+}
+input[type='range'] {
+	width: 200px;
+	margin: 0;
+}
+/* ======================= */
+
+h1 {
+	text-align: center;
+}
+input[type='text'],
+input[type='email'],
+input[type='datetime-local'] {
+	width: 200px;
+}
+legend {
+	font-size: 30px;
+}
+select {
+	min-width: 150px;
+}
+select > option {
+	font-size: 20px;
+}
+textarea {
+	width: 200px;
+}
+#container {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+fieldset {
+	min-width: 300px;
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.input-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.textarea-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.check-container {
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.radio-container {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+}
+.btn-container {
+	min-width: 200px;
+	max-width: 300px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-around;
+}
+button {
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 25px;
+}
+
+/* For vertical input range */
+/* #range{
+  display: flex;
+  align-items: stretch;
+  margin-top: 10px;
+}
+datalist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: sideways-lr;
+  margin-left: -80px;
+}
+option {
+  padding: 0;
+}
+#range>label{
+  padding-top: 70px;
+  margin-right: -80px;
+}
+input[type="range"] {
+  width: 200px;
+  margin: 0;
+  appearance: slider-vertical;
+  border: 1px solid;
+} */
