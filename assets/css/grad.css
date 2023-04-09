@@ -1,15 +1,48 @@
+h1{
+  text-align: center;
+}
 .container>div{
   /* width: 70%; */
   max-width: 70%;
   min-width: 200px;
   height: 200px;
   border: 2px solid blue;
-  margin-top: 10px;
+  margin: 10px auto;
   padding: 10px;
-  font-size: 50px;
-  margin: 0 auto;
+  font-size: 30px;
 }
-#gradient1{
+#gradient1 {
+  background: linear-gradient(teal, cyan);
+}
+
+#gradient2 {
+  background: linear-gradient(to left, rgb(36, 128, 0), rgb(0, 81, 255));
+  color: white;
+}
+
+#gradient3 {
+  background: linear-gradient(to top right, red, cyan);
+}
+
+#gradient4 {
+  background: linear-gradient(45deg, yellow, magenta);
+}
+
+#gradient5 {
+  background: repeating-linear-gradient(-45deg, white, green, black 50px);
+  color: white;
+}
+
+#gradient6 {
+  background: repeating-radial-gradient(closest-side at 70% 40%,  yellow, green 50px);
+  font-weight: bold;
+}
+
+#gradient7 {
+  background: conic-gradient(cyan, yellow);
+}
+
+#gradient8 {
   background: linear-gradient(to right,
       red 15%,
       orange 15% 30%,
