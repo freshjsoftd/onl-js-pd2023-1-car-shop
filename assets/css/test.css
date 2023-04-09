@@ -28,7 +28,27 @@ div {
 .l3{
   border: 3px solid magenta;
 }
-
+.bl1, .bl2, .bl3{
+	border: 2px solid red;
+	padding: 50px 50px 30px 40px;
+	margin: 50px;
+	/* display: inline-block; */
+}
+.bl1{
+	margin-bottom: 100px;
+}
+.wrapper{
+	border: 5px solid green;
+	width: 700px;
+}
+.in-wrapper{
+	border: 2px solid blue;
+	font-size: 0;
+}
+span{
+	border: 1px solid magenta;
+}
+/* 
 [class|=in]{
   background-color: blueviolet;
 }
@@ -37,4 +57,4 @@ div p{
 }
 p + section {
   color:burlywood
-}
+} */
