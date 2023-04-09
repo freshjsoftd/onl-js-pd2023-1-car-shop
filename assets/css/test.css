@@ -1,5 +1,9 @@
 * {
+	box-sizing: border-box;
+}
+:root{
 	font-size: 25px;
+	--col-numbers: 6;
 }
 .width1 {
 	border: 2px dashed blue;
@@ -24,25 +28,37 @@ div {
 	margin: 10px;
 	padding: 10px;
 	font-size: 0.8rem;
+	
+}
+.l1{
+  border: 3px solid magenta;
+	--main-bg-color: teal;
 }
 .l3{
-  border: 3px solid magenta;
+  background-color: var(--main-bg-color);
 }
 .bl1, .bl2, .bl3{
+	/* font-size: 0; */
+	width: calc(100%/max(3,4,5));
 	border: 2px solid red;
 	padding: 50px 50px 30px 40px;
-	margin: 50px;
-	/* display: inline-block; */
+	/* margin: 50px; */
+	display: inline-block;
 }
 .bl1{
 	margin-bottom: 100px;
+	background-color: rgb(0, 128, 128, .5);
 }
 .wrapper{
 	border: 5px solid green;
-	width: 700px;
+	width: 900px;
+	/* background-color: var(--main-bg-color); */
+}
+.wrapper>div:nth-child(3n+1){
+	background-color: var(--main-bg-color);
 }
 .in-wrapper{
-	border: 2px solid blue;
+	border: 2px solid rgb(0, 128, 128);
 	font-size: 0;
 }
 span{

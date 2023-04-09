@@ -1,0 +1,21 @@
+.container>div{
+  /* width: 70%; */
+  max-width: 70%;
+  min-width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 50px;
+  margin: 0 auto;
+}
+#gradient1{
+  background: linear-gradient(to right,
+      red 15%,
+      orange 15% 30%,
+      yellow 30% 45%,
+      green 45% 60%,
+      blue 60% 75%,
+      indigo 75% 90%,
+      violet 90%);
+}

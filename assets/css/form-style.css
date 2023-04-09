@@ -1,6 +1,8 @@
 :root {
 	font-size: 20px;
+	--main-bg-color: teal;
 }
+
 label + input:focus {
 	background-color: antiquewhite;
 }
@@ -52,6 +54,13 @@ fieldset {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	background-color: var(--main-bg-color);
+}
+input[type="text"]:focus{
+	background-color: coral;
+}
+textarea:hover{
+	background-color: darkblue;
 }
 .input-container {
 	display: flex;
@@ -88,6 +97,7 @@ button {
 	border-radius: 5px;
 	font-size: 25px;
 }
+
 
 /* For vertical input range */
 /* #range{
