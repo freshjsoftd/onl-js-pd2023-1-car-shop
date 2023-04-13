@@ -1,0 +1,44 @@
+table{
+  margin: 20px auto;
+  font-size: 20px;
+  table-layout: fixed;
+  width: 500px;
+}
+thead{
+  background-color: bisque;
+}
+tfoot{
+  background-color: darksalmon;
+}
+caption{
+  font-size: 30px;
+  color: red;
+}
+caption::after{
+  content: "#05";
+  color: blueviolet
+}
+table, thead, tbody, tfoot{
+  border: 4px solid red;
+}
+tr, th, td {
+  border: 2px solid blue;
+}
+tbody td:first-child{
+  background-color: aqua;
+}
+thead th:first-child{
+  width: 50px;
+}
+thead :not(th:first-child){
+  width: 150px;
+}
+tbody,tfoot > tr{
+  text-align: center;
+}
+tbody > tr:nth-child(odd){
+  background-color: darkkhaki;
+}
+tbody > tr:nth-child(even){
+  background-color: lightgrey;
+}
