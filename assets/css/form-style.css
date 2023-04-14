@@ -1,22 +1,19 @@
 /* General */
-*{
+/* * {
 	box-sizing: border-box;
 }
 :root {
 	font-size: 20px;
-	/* --main-bg-color: teal; */
-}
+} */
+
 /* ======================= */
 /* Focus style */
-label + input:focus {
+/* label + input:focus {
 	background-color: antiquewhite;
-}
-/* input[type="text"]:focus{
-	background-color: coral;
 } */
 /* ======================= */
 /* Common styles */
-
+/* 
 input[type='text'],
 input[type='email'],
 input[type='datetime-local'] {
@@ -24,8 +21,6 @@ input[type='datetime-local'] {
 }
 legend {
 	font-size: 25px;
-	/* text-align: center; */
-
 }
 select {
 	min-width: 50%;
@@ -42,13 +37,14 @@ button {
 	border-radius: 5px;
 	font-size: 25px;
 }
-textarea:focus, select:focus{
+textarea:focus,
+select:focus {
 	background-color: antiquewhite;
 }
+ */
 /* ======================= */
 /* Flexbox styles */
-#container {
-	/* margin: auto; */
+/* #container {
 	display: flex;
 	justify-content: center;
 }
@@ -58,7 +54,6 @@ fieldset {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	/* background-color: var(--main-bg-color); */
 }
 
 .input-container {
@@ -89,15 +84,13 @@ fieldset {
 	margin: 20px auto;
 	display: flex;
 	justify-content: space-around;
-}
+} */
 /* ======================= */
 /* For input range gorizontal*/
-datalist {
+/* datalist {
 	display: flex;
 	justify-content: space-between;
 	width: 200px;
-	/* flex-direction: column; */
-	/* writing-mode: vertical-lr; */
 }
 option {
 	padding: 0;
@@ -105,7 +98,7 @@ option {
 input[type='range'] {
 	width: 200px;
 	margin: 0;
-}
+} */
 /* ======================= */
 
 /* For vertical input range */
