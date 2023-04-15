@@ -1,56 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100;1,300&family=Roboto+Condensed:wght@300&display=swap');
 
-*{
-  margin: 0 auto;
+* {
+	margin: 0 auto;
+  scroll-behavior: smooth;
 }
-
-section{
-  border: 2px solid red;
-  width: 80%;
+:root {
+	font-size: 20px;
 }
-
-h1, h2{
-  text-align: center;
-  /* font-size: 50px; */
-  text-shadow: -5px -3px 5px blue;
+address{
+  font-size: 30px;
+  font-weight: 600;
 }
-h2::first-letter{
-  font-size: 50px;
-  color: red;
-  
+article{
+  min-width: 25%;
+  margin: 10px;
 }
-#first-p::first-line{
-  /* font-size: 30px; */
-  color: blue;
+h1,
+h2,
+h3 {
+	text-align: center;
 }
- p::selection{
-  background-color: aquamarine;
+h2::first-letter {
+	/* font-size: 50px; */
+	color: red;
 }
-#ford h2::before{
-  content: "\260a";
+p {
+	text-indent: 3em;
+	font-family: 'Montserrat', sans-serif;
 }
-p{
-  text-indent: 3em;
-  font-family: 'Montserrat', sans-serif;
-/* font-family: 'Roboto Condensed', sans-serif; */
-  /* letter-spacing: 1.5em;
-  line-height: 1.8em; */
-  /* text-decoration: underline overline red; */
+p::selection {
+	background-color: aquamarine;
 }
-header,nav, ul, li{
-  margin: auto;
-  width: 90%;
+article>p::first-line {
+	/* font-size: 30px; */
+	color: blue;
 }
-ul{
+header{
+  min-width: 100%;
+  height: 100px;
   border: 2px solid;
-  list-style: none;
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
 }
-nav>ul>li{
+nav{
+  margin-top: 30px;
+}
+main{
+  margin-top: 120px;
+}
+ul,
+li {
+	margin: auto;
+	width: 90%;
+} 
+
+nav > ul > li {
+	text-align: center;
+	margin: 0 60px;
+}
+ul {
+	list-style: none;
+}
+footer{
+  display: flex;
+  width: 100%;
+  border: 1px solid;
+  height: 150px;
+  background-color: teal;
+  color: white;
+  font-size: 1.5em;
+}
+table {
+  margin: 20px auto;
+  min-width: 60%;
+  table-layout: fixed;
   text-align: center;
-  display: inline;
-  margin: 0 60px;
+  border: 5px solid red;
+  font-size: 25px;
+  font-weight: 600;
 }
-footer>div, address{
-  display: inline-block;
-  margin: 0 100px;
+th, td {
+  border: 2px solid blue;
 }
+section {
+	/* border: 2px solid red; */
+	width: 90%;
+  margin: 50px auto;
+}
+.article-container{
+  display: flex;
+}
+.img-container{
+  text-align: center;
+}
+.list-container{
+  display: flex;
+}
+.return{
+  text-align: center;
+}
+
+
+/* #car-details{
+  margin: 20px auto;
+} */
+#ford h2::before {
+	content: '\260a';
+}
+
+
