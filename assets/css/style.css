@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100;1,300&family=Roboto+Condensed:wght@300&display=swap');
+
 *{
   margin: 0 auto;
 }
+
 section{
   border: 2px solid red;
   width: 80%;
 }
-.l3{
-  border: 3px solid brown;
-}
+
 h1, h2{
   text-align: center;
-  font-size: 50px;
+  /* font-size: 50px; */
   text-shadow: -5px -3px 5px blue;
 }
 h2::first-letter{
@@ -19,7 +20,7 @@ h2::first-letter{
   
 }
 #first-p::first-line{
-  font-size: 30px;
+  /* font-size: 30px; */
   color: blue;
 }
  p::selection{
@@ -29,10 +30,9 @@ h2::first-letter{
   content: "\260a";
 }
 p{
-  /* font-style: italic; */
-  font-weight: 800;
-  color: green;
   text-indent: 3em;
+  font-family: 'Montserrat', sans-serif;
+/* font-family: 'Roboto Condensed', sans-serif; */
   /* letter-spacing: 1.5em;
   line-height: 1.8em; */
   /* text-decoration: underline overline red; */

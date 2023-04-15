@@ -1,19 +1,24 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato/Lato-Black.ttf);
+}
 /* General */
-/* * {
+* {
 	box-sizing: border-box;
 }
 :root {
 	font-size: 20px;
-} */
+	font-family: Lato ;
+}
 
 /* ======================= */
 /* Focus style */
-/* label + input:focus {
+label + input:focus {
 	background-color: antiquewhite;
-} */
+}
 /* ======================= */
 /* Common styles */
-/* 
+
 input[type='text'],
 input[type='email'],
 input[type='datetime-local'] {
@@ -21,6 +26,7 @@ input[type='datetime-local'] {
 }
 legend {
 	font-size: 25px;
+	text-align: center;
 }
 select {
 	min-width: 50%;
@@ -41,11 +47,12 @@ textarea:focus,
 select:focus {
 	background-color: antiquewhite;
 }
- */
+
 /* ======================= */
 /* Flexbox styles */
-/* #container {
+ #container {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 fieldset {
@@ -84,10 +91,10 @@ fieldset {
 	margin: 20px auto;
 	display: flex;
 	justify-content: space-around;
-} */
+} 
 /* ======================= */
 /* For input range gorizontal*/
-/* datalist {
+datalist {
 	display: flex;
 	justify-content: space-between;
 	width: 200px;
@@ -98,7 +105,7 @@ option {
 input[type='range'] {
 	width: 200px;
 	margin: 0;
-} */
+}
 /* ======================= */
 
 /* For vertical input range */

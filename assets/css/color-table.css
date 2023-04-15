@@ -1,3 +1,4 @@
+@import url(./reset.css);
 table{
   margin: 20px auto;
   font-size: 20px;
@@ -7,7 +8,7 @@ table{
 thead{
   background-color: bisque;
 }
-tfoot{
+tfoot, tfoot>tr{
   background-color: darksalmon;
 }
 caption{
@@ -42,3 +43,31 @@ tbody > tr:nth-child(odd){
 tbody > tr:nth-child(even){
   background-color: lightgrey;
 }
+a{
+  display: block;
+  width: 150px;
+}
+button{
+  display: block;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* width: 150px; */
+}
+/* tfoot>tr{
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  border: none;
+  margin: 0;
+}
+tfoot td{
+  display: block;
+  width: 250px;
+  margin: 0 5px;
+}
+tfoot{
+  display: inline-block;
+  border: none;
+  width: 500px;
+} */
