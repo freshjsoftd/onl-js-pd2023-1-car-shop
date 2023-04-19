@@ -1,0 +1,23 @@
+:root {
+	--main-color: #5f9da0;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.nav-list {
+	font-size: 0;
+	margin-left: 40px;
+	margin-top: 20px;
+}
