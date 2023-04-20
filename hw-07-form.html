@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/hw-07-style.css" />
+		<title>HW-Form</title>
+	</head>
+	<body>
+		<div class="main-container">
+			<header>
+				<h1>Create an account</h1>
+				<p>We always keep your name and email address private</p>
+			</header>
+			<form>
+				<div class="form-container">
+					<div class="input-wrapper">
+						<div class="input-container">
+							<input
+								type="text"
+								autofocus
+								placeholder="First Name" />
+							<input type="text" placeholder="Display Name" />
+							<input type="password" placeholder="Password" />
+						</div>
+						<div class="input-container">
+							<input type="text" placeholder="Last Name" />
+							<input type="email" placeholder="Email" />
+							<input
+								type="password"
+								placeholder="Password Confirmation" />
+						</div>
+					</div>
+					<div class="radio-container">
+						<div class="radio-outer-container">
+							<div class="radio-inner-container">
+								<input
+									type="radio"
+									name="customer"
+									id="buyer" />
+								<label for="buyer">Join as a buyer</label>
+							</div>
+							<p>I am looking for</p>
+						</div>
+						<div class="radio-outer-container">
+							<div class="radio-inner-container">
+								<input
+									type="radio"
+									name="customer"
+									id="creator" />
+								<label for="creator">Join as a creator</label>
+							</div>
+							<p>I plan to submit</p>
+						</div>
+						<div>
+							<input type="checkbox" id="allow" />
+							<label for="allow">Allow Squadhelp ...</label>
+						</div>
+					</div>
+					<div class="button-container">
+						<button type="submit">Create account</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

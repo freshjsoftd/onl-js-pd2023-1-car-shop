@@ -1,0 +1,104 @@
+*{
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+.button-container{
+  /* border: 1px solid; */
+  margin: 10px;
+  max-width: 100%;
+  background-color: darkturquoise;
+  text-align: center;
+}
+.main-container{
+  /* border: 1px solid; */
+  /* margin: auto; */
+  max-width: 600px;
+  height: 800px;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form-container{
+  /* border: 1px solid; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input-wrapper{
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.input-container{
+  /* border: 1px solid; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.radio-container{
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -30px;
+  
+}
+.radio-inner-container{
+  /* border: 1px solid; */
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.radio-outer-container{
+  border: 2px solid white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+.radio-outer-container>p{
+  font-size: 0.8rem;
+  margin: 10px;
+  text-align: left;
+}
+button{
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  
+}
+form{
+  margin: 10px auto;
+  width: 100%;
+  height: 100%;
+}
+header{
+width: 100%;
+max-height: 100px;
+margin: 10px auto;
+}
+h1, p{
+  text-align: center;
+  color: white;
+} 
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+  width: 90%;
+  height: 50px;
+}
+input[type="radio"]{
+  margin: 10px ;
+}
+label{
+  color: white;
+  margin-left: 10px;
+}
