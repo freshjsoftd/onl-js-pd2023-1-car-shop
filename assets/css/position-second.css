@@ -18,12 +18,15 @@ body {
 	border-radius: 5px;
 	text-align: center;
 	background-color: darkslateblue;
+	/* position: absolute;
+	right: 0;
+	left: 0; */
 }
 
 .menu-item > a {
-	text-align: center;
+	/* text-align: center; */
 	display: inline-block; /*center by vertical*/
-	margin: 5px;           /*center by vertical*/
+	margin: 3px;           /*center by vertical*/
 	/* vertical-align: middle; */
 	color: white;
 }
@@ -34,31 +37,31 @@ body {
 	height: 800px;
 	margin: 20px auto;
 	padding: 50px;
-	/* position: relative; */
+	position: relative;
 	/* z-index: 1; */
 }
 
 .inner-wraper {
 	border: 4px solid blueviolet;
-	 background-color: coral;
+	background-color: coral;
 	width: 80%;
 	height: 80%;
 	margin: 0 auto;
-	/* position: relative; */
+	position: relative;
 }
 
 .items {
 	border: 2px solid #000;
 	text-align: center;
 	font-size: 2em;
-	/* position: absolute;
-	z-index: 2;  */
+	position: absolute;
+	/* z-index: 2;  */
 }
 
 #item1 {
 	background-color: forestgreen;
-	/* top: 0;
-	left: 0; */
+	top: 0;
+	left: 0;
 	min-width: 400px;
 	height: 300px;
 }
@@ -70,8 +73,8 @@ body {
 	width: 100px;
 	height: 100px;
 	background-color: blueviolet;
-	/* bottom: 0;
-	right: 0; */
+	bottom: 0;
+	right: 0;
 	/* position: fixed; */
 }
 
@@ -79,8 +82,8 @@ body {
 	width: 150px;
 	height: 150px;
 	background-color: burlywood;
-	/* top: 0;
-	right: 0; */
+	top: 0;
+	right: 0;
 }
 
 #item4 {
@@ -89,8 +92,10 @@ body {
 	background-color: crimson;
 	border-radius: 50%;
 	bottom: 0;
-	/* z-index: 2;  */
-	/* position: sticky;
 	left: 0;
-	top: 20px;*/
+	
+	/* z-index: 2;  */
+	position: sticky;
+	
+	top: 20px;
 }

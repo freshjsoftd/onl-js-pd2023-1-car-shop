@@ -15,6 +15,14 @@ article{
   min-width: 25%;
   margin: 10px;
 }
+h1{
+  position: sticky;
+  top: 50px;
+}
+#h1{
+  height: 300px;
+  border: 2px solid red;
+}
 h1,
 h2,
 h3 {
@@ -111,5 +119,6 @@ section {
 #ford h2::before {
 	content: '\260a';
 }
+
 
 
