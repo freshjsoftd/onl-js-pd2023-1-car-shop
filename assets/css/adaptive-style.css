@@ -25,7 +25,15 @@ h1{
     background-color: aqua;
     border: 2px solid ;
   }
-
+img{
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+#pict{
+  margin: 10px auto;
+  display: flex;
+}
 @media screen and (min-width: 1201px ){
   h1{
     margin: 50px auto;

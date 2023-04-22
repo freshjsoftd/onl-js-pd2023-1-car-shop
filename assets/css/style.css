@@ -15,14 +15,14 @@ article{
   min-width: 25%;
   margin: 10px;
 }
-h1{
+/* h1{
   position: sticky;
   top: 50px;
 }
 #h1{
   height: 300px;
   border: 2px solid red;
-}
+} */
 h1,
 h2,
 h3 {
@@ -118,6 +118,34 @@ section {
 } */
 #ford h2::before {
 	content: '\260a';
+}
+
+.animation {
+	animation-name: slide;
+	animation-duration: 2s;
+	animation-iteration-count: 4;
+	animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+	animation-direction: alternate-reverse;
+	animation-fill-mode: none;
+} 
+
+@keyframes slide {
+	from {
+		margin-left: 100%;
+		color: red;
+    font-size: 30px;
+	}
+	50% {
+		margin-left: 0%;
+		/* color: magenta;
+		font-size: 70px;
+		transform: rotate(180deg); */
+	}
+	to {
+		margin-left: -100%;
+		color: blue;
+		font-size: 25px;
+	}
 }
 
 
