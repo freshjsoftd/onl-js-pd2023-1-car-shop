@@ -120,14 +120,14 @@ section {
 	content: '\260a';
 }
 
-.animation {
+/* .animation {
 	animation-name: slide;
 	animation-duration: 2s;
 	animation-iteration-count: 4;
 	animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 	animation-direction: alternate-reverse;
 	animation-fill-mode: none;
-} 
+}  */
 
 @keyframes slide {
 	from {

@@ -64,9 +64,16 @@ body {
 	left: 0;
 	min-width: 400px;
 	height: 300px;
+	transition: background-color 2s,
+							transform 1s;
+							/* translate 1s; */
+	transition-delay: 1s;
+	z-index: 4;
 }
 #item1:hover {
 	background-color: blueviolet;
+	transform: translate(200px, 50%) rotate(0.5turn) scale(1.5, 0.5);
+	/* translate: 100px 200px; */
 }
 
 #item2 {
@@ -84,6 +91,7 @@ body {
 	background-color: burlywood;
 	top: 0;
 	right: 0;
+	
 }
 
 #item4 {
@@ -94,8 +102,8 @@ body {
 	bottom: 0;
 	left: 0;
 	
-	/* z-index: 2;  */
-	position: sticky;
-	
+	z-index: 1; 
+	position: fixed;
+	left: 400px;
 	top: 20px;
 }

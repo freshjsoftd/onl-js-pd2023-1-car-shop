@@ -24,8 +24,8 @@ a {
 
 .list-item {
 	display: inline-block;
-	border: 3px solid #3c8058;
-	/* outline: 3px solid #3c8058; */
+	/* border: 3px solid #3c8058; */
+	outline: 3px solid #3c8058;
 	font-size: 16px;
 	background-color: #47986d;
 	color: white;
@@ -44,17 +44,16 @@ nav ul ul {
 .nav-list li:hover > ul{
   display: block;
 }
-.sub-nav-list li:hover > ul{
+/* .sub-nav-list li:hover > ul{
 	display: block;
-}
+} */
 .sub-nav-list{
   position: absolute;
   left: 0;
   right: 0;
-  
 }
 .sub-nav-item{
-  display: block;
+  /* display: block; */
 	padding: 10px 20px;
   width: 100%;
 	top: 0;
@@ -68,7 +67,8 @@ nav ul ul {
 	left: 100%;
 	top: 0;
 }
+
 .sub-sub-nav-item{
-	display: block;
+	/* display: block; */
 	padding: 20px 25px;
 }

@@ -45,4 +45,14 @@ h1::first-letter{
 	height: 50px;
 	background-color: orangered;
 }
+.content{
+	columns: 3;
+	column-gap: 20px;
+	column-rule: 3px solid red;
+	/* column-fill: balance; */
+}
+h1{
+	column-span: all;
+}
+
 

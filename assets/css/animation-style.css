@@ -1,0 +1,59 @@
+:root {
+	font-size: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+nav {
+	text-align: center;
+	font-size: 40px;
+}
+p {
+	font-size: 1.5rem;
+}
+/* For transition */
+img {
+	transition: all 2s;
+	margin-left: 10px;
+}
+img:hover {
+	opacity: 0.3;
+	margin-left: 200px;
+	margin-top: 300px;
+	/* transform: translate(50%, 200px) rotate(180deg) scale(0.5, 2); */
+}
+/* Special for animation */
+/*.animation {
+	animation-name: slide;
+	animation-duration: 2s;
+	animation-iteration-count: 4;
+	animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+	animation-direction: alternate-reverse;
+	animation-fill-mode: none; /
+}*
+/*
+ animation-name: fadeInOut, moveLeft300px, slide;
+        animation-duration: 2.5s, 5s;
+        animation-iteration-count: 2, 1;
+ */
+
+@keyframes slide {
+	from {
+		margin-left: 80%;
+		color: red;
+    font-size: 30px;
+	}
+	50% {
+		margin-left: 50%;
+		color: magenta;
+		font-size: 70px;
+		transform: rotate(180deg);
+	}
+	to {
+		margin-left: 20%;
+		color: blue;
+		font-size: 25px;
+	}
+}
+
